@@ -39,13 +39,5 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "qdggE76Jtbfd9eWJHrssH" });
-// invokeAction({
-//   action: "add",
-//   name: "Chaim Lewis",
-//   email: "dui.in@egetlacus.ca",
-//   phone: "(294) 840-6685",
-// });
-// invokeAction({ action: "remove", id: "qdggE76Jtbfd9eWJHrssH" });
+
 invokeAction(options);
